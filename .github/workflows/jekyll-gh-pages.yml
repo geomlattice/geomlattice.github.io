@@ -48,7 +48,7 @@ jobs:
 
       - name: Build Book
         run: |
-          shiroa build --font-path assets/fonts -w ./citationchain/ citationchain/
+          shiroa build --font-path assets/fonts -w ./citationchain/ citationchain/ --mode static-html
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
