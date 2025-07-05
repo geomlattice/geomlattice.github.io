@@ -6,4 +6,7 @@ init:
 	echo "You will want to remove the github-pages import in the template page file"
 
 build:
-	shiroa build -w ./citationchain/ citationcahin/ --mode static-html
+	shiroa build -w ./citationchain/ citationchain/ --mode static-html
+
+serve:
+	cd citationchain && shiroa serve --mode static-html
