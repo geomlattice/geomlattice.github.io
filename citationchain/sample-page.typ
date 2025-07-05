@@ -5,3 +5,4 @@
 = Hello, typst
 
 Sample page
+Sample text
