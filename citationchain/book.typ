@@ -11,6 +11,8 @@
     - #chapter("chezkavod/mathematicians/thomas-harriot.typ")[Thomas Harriot]
     = Philosophers
     - #chapter("chezkavod/philosophers/nicomachus-of-gerasa.typ")[Nicomachus of Gerasa]
+    = Topics
+    - #chapter("chezkavod/topics/linear-algebra.typ")[Linear Algebra]
   ]
 )
 

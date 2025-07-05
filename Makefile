@@ -8,5 +8,11 @@ init:
 build:
 	shiroa build -w ./citationchain/ citationchain/ --mode static-html
 
+build_page:
+	shiroa build -w ./citationchain/ citationchain/
+
 serve:
 	cd citationchain && shiroa serve --mode static-html
+
+serve_page:
+	cd citationchain && shiroa serve

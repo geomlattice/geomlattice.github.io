@@ -18,6 +18,4 @@ shiroa init citationchain
 
 ### Build and Locally Serve
 
-```bash
-echo "Soon"
-```
+See the Makefile. Note that for math rendering html output cannot be used
