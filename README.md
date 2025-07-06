@@ -1,6 +1,6 @@
 # wiki
 
-This is the source code for the citation chain wiki
+This is a demo exploration of the shiroa wiki. Since it relies on the typst html output which is still experimental, this framework is rather limited with regards to math and code output. Most things work very well though. Due to the structure of the api calls, shiroa must be at a user or organization level github page to work.
 
 ### Open Source Software Context 
 
