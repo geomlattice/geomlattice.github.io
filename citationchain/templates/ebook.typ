@@ -34,23 +34,4 @@
   }
 
   content
-
-  show math.equation: set text(weight: 400)
-  show math.equation.where(block: true): it => context if shiroa-sys-target() == "html" {
-    theme-box(tag: "div", theme => {
-      set text(fill: get-main-color(theme))
-      p-frame(attrs: ("class": "block-equation", "role": "math"), it)
-    })
-  } else {
-    it
-  }
-  show math.equation.where(block: false): it => context if shiroa-sys-target() == "html" {
-    theme-box(tag: "span", theme => {
-      set text(fill: get-main-color(theme))
-      span-frame(attrs: (class: "inline-equation", "role": "math"), it)
-    })
-  } else {
-    it
-  }
-
 }
