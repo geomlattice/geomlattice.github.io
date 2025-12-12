@@ -2,6 +2,11 @@
 
 #show: book
 
+#show math.equation: html.frame
+#import "@preview/zebraw:0.6.1": *
+#show: zebraw-init
+#show: zebraw
+
 #book-meta(
   title: "shiroa",
   summary: [
