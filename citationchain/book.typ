@@ -1,11 +1,12 @@
-#import "@preview/shiroa:0.2.3": *
-
-#show: book
-
 #show math.equation: html.frame
 #import "@preview/zebraw:0.6.1": *
 #show: zebraw-init
 #show: zebraw
+
+#import "@preview/shiroa:0.2.3": *
+
+#show: book
+
 
 #book-meta(
   title: "shiroa",
